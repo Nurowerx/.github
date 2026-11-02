@@ -6,9 +6,11 @@
 
 </div>
 
+**Website:** [nurowerx.com](https://nurowerx.com) · **Contact:** [swalker@nurowerx.com](mailto:swalker@nurowerx.com)
+
 ---
 
-Nurowerx is an independent research and technology company exploring the relationship between people, information, and intelligent systems. Our work connects human–computer interaction, explainable AI, intelligent infrastructure, and adaptive computation with a human-centered perspective.
+Founded in 2022 by Spencer H. Walker, Nurowerx is an independent Colorado-based research and technology company exploring the relationship between people, information, and intelligent systems. Our work connects human–computer interaction, explainable AI, intelligent infrastructure, and adaptive computation with a human-centered perspective.
 
 ### Areas of inquiry
 
@@ -42,4 +44,4 @@ Proprietary implementations, experimental systems, confidential engagements, and
 
 ---
 
-<sub>NUROWERX · Colorado, United States · Independent research and technical development</sub>
+<sub>NUROWERX · Colorado, United States · [Official website](https://nurowerx.com) · Independent research and technical development</sub>
