@@ -1,0 +1,93 @@
+<svg xmlns="http://www.w3.org/2000/svg" width="1800" height="560" viewBox="0 0 1800 560" role="img" aria-labelledby="title desc">
+  <title id="title">Nurowerx Resident Model Lab — Editorial Banner, Version Two</title>
+  <desc id="desc">Restrained graphite and copper editorial research banner with light-weight Resident Model Lab typography and an illustrative diagram of model experts moving from a larger bank into a bounded GPU-resident set. Not benchmark data.</desc>
+  <defs>
+    <linearGradient id="background" x1="0" y1="0" x2="1" y2="1">
+      <stop offset="0" stop-color="#151719"/>
+      <stop offset=".56" stop-color="#101214"/>
+      <stop offset="1" stop-color="#18191A"/>
+    </linearGradient>
+    <radialGradient id="warmth" cx=".66" cy=".42" r=".67">
+      <stop offset="0" stop-color="#9A624A" stop-opacity=".12"/>
+      <stop offset="1" stop-color="#9A624A" stop-opacity="0"/>
+    </radialGradient>
+    <pattern id="fineGrid" width="56" height="56" patternUnits="userSpaceOnUse">
+      <path d="M56 0H0V56" fill="none" stroke="#EFEAE4" stroke-width=".7" opacity=".035"/>
+    </pattern>
+    <g id="tile">
+      <rect width="55" height="45" rx="2" fill="#242629" stroke="#8E8F8B" stroke-opacity=".35"/>
+    </g>
+  </defs>
+
+  <rect width="1800" height="560" fill="url(#background)"/>
+  <rect width="1800" height="560" fill="url(#warmth)"/>
+  <rect width="1800" height="560" fill="url(#fineGrid)"/>
+  <path d="M74 110H1726M74 503H1726" fill="none" stroke="#E9E5DF" stroke-opacity=".20" stroke-width="1"/>
+  <path d="M74 110H194" stroke="#C99577" stroke-width="2"/>
+
+  <!-- Nurowerx identity, conceptually derived from the first research banner -->
+  <g transform="translate(76 45) scale(.38)">
+    <path fill="#C99577" d="M11 86C38 84 46 66 62 47 79 26 91 12 111 9 83 9 72 21 55 43 38 67 29 81 11 86Z"/>
+    <path fill="#EAE6E0" d="M10 9C35 8 45 21 61 43 80 68 89 82 111 86 84 89 70 75 52 51 36 28 26 14 10 9Z"/>
+  </g>
+  <text x="133" y="80" font-family="Arial,Helvetica,sans-serif" font-size="21" font-weight="600" letter-spacing="4.4" fill="#F1EEE9">NUROWERX</text>
+  <text x="1726" y="80" text-anchor="end" font-family="Consolas,'Courier New',monospace" font-size="13" letter-spacing="1.5" fill="#AEABA6">RESEARCH NOTE  /  001</text>
+
+  <!-- Two-line editorial wordmark; intentionally lighter than the original -->
+  <text x="74" y="267" font-family="'Helvetica Neue',Arial,Helvetica,sans-serif" font-size="100" font-weight="300" letter-spacing="-2.9" fill="#F3F0EA">RESIDENT</text>
+  <text x="74" y="369" font-family="'Helvetica Neue',Arial,Helvetica,sans-serif" font-size="100" font-weight="300" letter-spacing="-3.2" fill="#F3F0EA">MODEL</text>
+  <text x="421" y="369" font-family="'Helvetica Neue',Arial,Helvetica,sans-serif" font-size="100" font-weight="300" letter-spacing="-3.2" fill="#C99577">LAB.</text>
+  <path d="M77 395H161" stroke="#C99577" stroke-width="2"/>
+  <text x="77" y="429" font-family="Consolas,'Courier New',monospace" font-size="16" letter-spacing="1.1" fill="#C7C4BE">MEMORY-BOUNDED LOCAL INFERENCE</text>
+  <text x="77" y="459" font-family="Arial,Helvetica,sans-serif" font-size="16" fill="#878B8B">Mixture-of-experts systems research</text>
+
+  <!-- Minimal technical panel -->
+  <path d="M858 144V467" stroke="#EAE6E0" stroke-opacity=".15"/>
+  <rect x="902" y="149" width="824" height="319" rx="3" fill="#17191B" fill-opacity=".8" stroke="#EEEAE4" stroke-opacity=".22"/>
+  <path d="M902 194H1726M902 425H1726" stroke="#EEEAE4" stroke-opacity=".16"/>
+  <text x="928" y="178" font-family="Consolas,'Courier New',monospace" font-size="13" letter-spacing="1.0" fill="#E1DED7">EXPERT RESIDENCY</text>
+  <text x="1700" y="178" text-anchor="end" font-family="Consolas,'Courier New',monospace" font-size="11" fill="#93928E">CONCEPTUAL / NOT BENCHMARK DATA</text>
+
+  <text x="935" y="225" font-family="Consolas,'Courier New',monospace" font-size="12" letter-spacing=".5" fill="#C99577">01  /  EXPERT BANK</text>
+  <text x="1450" y="225" font-family="Consolas,'Courier New',monospace" font-size="12" letter-spacing=".5" fill="#C99577">02  /  GPU RESIDENT SET</text>
+  <g font-family="Consolas,'Courier New',monospace" font-size="12" text-anchor="middle" fill="#B4B2AD">
+    <use href="#tile" x="936" y="257"/><text x="963.5" y="284">E01</text>
+    <use href="#tile" x="1010" y="257"/><text x="1037.5" y="284">E02</text>
+    <use href="#tile" x="1084" y="257"/><text x="1111.5" y="284">E03</text>
+    <use href="#tile" x="1158" y="257"/><text x="1185.5" y="284">E04</text>
+    <use href="#tile" x="936" y="321"/><text x="963.5" y="348">E05</text>
+    <use href="#tile" x="1010" y="321"/><text x="1037.5" y="348">E06</text>
+    <use href="#tile" x="1084" y="321"/><text x="1111.5" y="348">E07</text>
+    <use href="#tile" x="1158" y="321"/><text x="1185.5" y="348">E08</text>
+  </g>
+  <path d="M936 257H991V302H936Z" fill="#C99577" fill-opacity=".15" stroke="#C99577" stroke-opacity=".65"/>
+  <path d="M1084 321H1139V366H1084Z" fill="#C99577" fill-opacity=".15" stroke="#C99577" stroke-opacity=".65"/>
+
+  <!-- Transfer / replacement: arrows illustrate movement, not a measurement -->
+  <path d="M1255 289H1411" stroke="#C99577" stroke-width="1.6" fill="none"/>
+  <path d="M1401 283L1411 289 1401 295" fill="none" stroke="#C99577" stroke-width="1.6"/>
+  <path d="M1411 346H1255" stroke="#AFAFAB" stroke-opacity=".55" stroke-dasharray="5 7" stroke-width="1.2" fill="none"/>
+  <path d="M1265 340L1255 346 1265 352" fill="none" stroke="#AFAFAB" stroke-opacity=".55" stroke-width="1.2"/>
+  <text x="1333" y="271" text-anchor="middle" font-family="Consolas,'Courier New',monospace" font-size="11" fill="#D5AD96">LOAD</text>
+  <text x="1333" y="367" text-anchor="middle" font-family="Consolas,'Courier New',monospace" font-size="11" fill="#92918D">REPLACE</text>
+
+  <rect x="1448" y="256" width="242" height="111" rx="2" fill="#1E2021" stroke="#E3DED7" stroke-opacity=".25"/>
+  <g font-family="Consolas,'Courier New',monospace" font-size="11" text-anchor="middle">
+    <rect x="1463" y="276" width="46" height="54" rx="1" fill="#C99577" fill-opacity=".27" stroke="#C99577" stroke-opacity=".8"/>
+    <text x="1486" y="307" fill="#F4E2D6">E01</text>
+    <rect x="1518" y="276" width="46" height="54" rx="1" fill="#2A2B2B" stroke="#EAE6E0" stroke-opacity=".40"/>
+    <text x="1541" y="307" fill="#D0CECB">E03</text>
+    <rect x="1573" y="276" width="46" height="54" rx="1" fill="#C99577" fill-opacity=".27" stroke="#C99577" stroke-opacity=".8"/>
+    <text x="1596" y="307" fill="#F4E2D6">E07</text>
+    <rect x="1628" y="276" width="46" height="54" rx="1" fill="#2A2B2B" stroke="#EAE6E0" stroke-opacity=".40"/>
+    <text x="1651" y="307" fill="#D0CECB">E08</text>
+  </g>
+  <text x="1569" y="350" text-anchor="middle" font-family="Consolas,'Courier New',monospace" font-size="11" fill="#A39F98">ILLUSTRATIVE SUBSET</text>
+
+  <text x="928" y="449" font-family="Consolas,'Courier New',monospace" font-size="12" letter-spacing=".7" fill="#B9B7B2">EXACT EXECUTION</text>
+  <path d="M1121 443H1167" stroke="#8C8E8B" stroke-opacity=".5"/>
+  <text x="1190" y="449" font-family="Consolas,'Courier New',monospace" font-size="12" letter-spacing=".7" fill="#C99577">ADAPTIVE EXECUTION</text>
+
+  <text x="74" y="536" font-family="Consolas,'Courier New',monospace" font-size="11.5" letter-spacing="1.1" fill="#8F918F">EXPERT LOADING  /  MEMORY  /  LATENCY  /  OUTPUT QUALITY</text>
+  <text x="1726" y="536" text-anchor="end" font-family="Consolas,'Courier New',monospace" font-size="11.5" letter-spacing="1.1" fill="#C99577">EVIDENCE BEFORE CLAIMS</text>
+</svg>
