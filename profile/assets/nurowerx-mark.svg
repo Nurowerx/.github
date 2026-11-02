@@ -1,0 +1,8 @@
+<svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 160 160" role="img" aria-labelledby="title">
+  <title id="title">Nurowerx crossed ribbon mark</title>
+  <rect width="160" height="160" rx="24" fill="#111315"/>
+  <g transform="translate(20 30)">
+    <path fill="#D89A72" d="M11 86 C38 84 46 66 62 47 C79 26 91 12 111 9 C83 9 72 21 55 43 C38 67 29 81 11 86Z"/>
+    <path fill="#F6F5F1" d="M10 9 C35 8 45 21 61 43 C80 68 89 82 111 86 C84 89 70 75 52 51 C36 28 26 14 10 9Z"/>
+  </g>
+</svg>
