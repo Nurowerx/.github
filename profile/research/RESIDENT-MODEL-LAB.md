@@ -1,3 +1,7 @@
+<p align="center">
+  <img src="../assets/resident-model-lab-banner-v2.svg" width="100%" alt="Resident Model Lab V2, with light editorial typography and an illustrative expert-residency diagram." />
+</p>
+
 # Resident Model Lab
 
 ## Preliminary technical research note
