@@ -24,11 +24,15 @@ Research directions in environmental interpretation, sensing, machine-assisted d
 **Information Science & Human Systems**  
 Investigating how information is represented, interpreted, communicated, and acted upon across human and artificial systems.
 
-### Current research direction
+### Featured research: Resident Model Lab
 
-**Memory-constrained local AI.** Nurowerx is investigating whether a language-model runtime can switch among smaller active component configurations across task stages while operating within an explicit hardware-memory budget. The research is software-first, with reproducible comparisons planned across task quality, resident memory, component loading, and inference latency.
+**[Resident Model Lab](./research/RESIDENT-MODEL-LAB.md)** is a working local software research system investigating memory-bounded inference in an existing OLMoE mixture-of-experts model. It manages expert loading and GPU residency, with exact and adaptive execution modes and instrumentation for memory, transfers, latency, and answer correctness.
 
-The hypothesis remains **unproven**. We distinguish proposed mechanisms, working prototypes, and measured results. No efficiency gains or capability preservation are claimed ahead of evidence.
+**What works:** In exact mode, generated tokens matched the reference implementation on tested requests. In an initial eight-task evaluation, exact execution and an ordinary quantization baseline each passed **5/8** tasks; tested 16-expert adaptive configurations passed **2/8**.
+
+**What remains unresolved:** Reliable expert selection that preserves answer quality. These early results do not establish broad capability parity, speedups, measured hardware cost savings, or production readiness.
+
+[Read the preliminary technical research note](./research/RESIDENT-MODEL-LAB.md) for methods, limitations and next experiments.
 
 ### Public technical work
 
