@@ -1,64 +1,65 @@
 <svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 1800 560" width="1800" height="560" role="img" aria-labelledby="title desc">
   <title id="title">Nurowerx — The Next Frontier Is Human</title>
-  <desc id="desc">An editorial charcoal-and-warm-orange banner matching the Nurowerx website. Bold typography beside a human context, information, inference and agency schematic.</desc>
+  <desc id="desc">An editorial charcoal-and-warm-orange banner matching the Nurowerx website. Light-weight editorial typography beside a human context, information, inference and agency schematic.</desc>
   <rect width="1800" height="560" fill="#111315"/>
-  <g><line x1="0" y1="0" x2="0" y2="560" stroke="#F6F5F1" stroke-opacity=".023"/><line x1="100" y1="0" x2="100" y2="560" stroke="#F6F5F1" stroke-opacity=".023"/><line x1="200" y1="0" x2="200" y2="560" stroke="#F6F5F1" stroke-opacity=".023"/><line x1="300" y1="0" x2="300" y2="560" stroke="#F6F5F1" stroke-opacity=".023"/><line x1="400" y1="0" x2="400" y2="560" stroke="#F6F5F1" stroke-opacity=".023"/><line x1="500" y1="0" x2="500" y2="560" stroke="#F6F5F1" stroke-opacity=".023"/><line x1="600" y1="0" x2="600" y2="560" stroke="#F6F5F1" stroke-opacity=".023"/><line x1="700" y1="0" x2="700" y2="560" stroke="#F6F5F1" stroke-opacity=".023"/><line x1="800" y1="0" x2="800" y2="560" stroke="#F6F5F1" stroke-opacity=".023"/><line x1="900" y1="0" x2="900" y2="560" stroke="#F6F5F1" stroke-opacity=".023"/><line x1="1000" y1="0" x2="1000" y2="560" stroke="#F6F5F1" stroke-opacity=".023"/><line x1="1100" y1="0" x2="1100" y2="560" stroke="#F6F5F1" stroke-opacity=".023"/><line x1="1200" y1="0" x2="1200" y2="560" stroke="#F6F5F1" stroke-opacity=".023"/><line x1="1300" y1="0" x2="1300" y2="560" stroke="#F6F5F1" stroke-opacity=".023"/><line x1="1400" y1="0" x2="1400" y2="560" stroke="#F6F5F1" stroke-opacity=".023"/><line x1="1500" y1="0" x2="1500" y2="560" stroke="#F6F5F1" stroke-opacity=".023"/><line x1="1600" y1="0" x2="1600" y2="560" stroke="#F6F5F1" stroke-opacity=".023"/><line x1="1700" y1="0" x2="1700" y2="560" stroke="#F6F5F1" stroke-opacity=".023"/><line x1="0" y1="0" x2="1800" y2="0" stroke="#F6F5F1" stroke-opacity=".025"/><line x1="0" y1="80" x2="1800" y2="80" stroke="#F6F5F1" stroke-opacity=".025"/><line x1="0" y1="160" x2="1800" y2="160" stroke="#F6F5F1" stroke-opacity=".025"/><line x1="0" y1="240" x2="1800" y2="240" stroke="#F6F5F1" stroke-opacity=".025"/><line x1="0" y1="320" x2="1800" y2="320" stroke="#F6F5F1" stroke-opacity=".025"/><line x1="0" y1="400" x2="1800" y2="400" stroke="#F6F5F1" stroke-opacity=".025"/><line x1="0" y1="480" x2="1800" y2="480" stroke="#F6F5F1" stroke-opacity=".025"/><line x1="0" y1="560" x2="1800" y2="560" stroke="#F6F5F1" stroke-opacity=".025"/></g>
-  <path d="M70 108H1730 M70 504H1730" stroke="#F6F5F1" stroke-opacity=".2" stroke-width="1"/>
-  <path d="M70 108H225" stroke="#D89A72" stroke-width="2"/>
+  <g><line x1="0" y1="0" x2="0" y2="560" stroke="#F3F0EA" stroke-opacity=".023"/><line x1="100" y1="0" x2="100" y2="560" stroke="#F3F0EA" stroke-opacity=".023"/><line x1="200" y1="0" x2="200" y2="560" stroke="#F3F0EA" stroke-opacity=".023"/><line x1="300" y1="0" x2="300" y2="560" stroke="#F3F0EA" stroke-opacity=".023"/><line x1="400" y1="0" x2="400" y2="560" stroke="#F3F0EA" stroke-opacity=".023"/><line x1="500" y1="0" x2="500" y2="560" stroke="#F3F0EA" stroke-opacity=".023"/><line x1="600" y1="0" x2="600" y2="560" stroke="#F3F0EA" stroke-opacity=".023"/><line x1="700" y1="0" x2="700" y2="560" stroke="#F3F0EA" stroke-opacity=".023"/><line x1="800" y1="0" x2="800" y2="560" stroke="#F3F0EA" stroke-opacity=".023"/><line x1="900" y1="0" x2="900" y2="560" stroke="#F3F0EA" stroke-opacity=".023"/><line x1="1000" y1="0" x2="1000" y2="560" stroke="#F3F0EA" stroke-opacity=".023"/><line x1="1100" y1="0" x2="1100" y2="560" stroke="#F3F0EA" stroke-opacity=".023"/><line x1="1200" y1="0" x2="1200" y2="560" stroke="#F3F0EA" stroke-opacity=".023"/><line x1="1300" y1="0" x2="1300" y2="560" stroke="#F3F0EA" stroke-opacity=".023"/><line x1="1400" y1="0" x2="1400" y2="560" stroke="#F3F0EA" stroke-opacity=".023"/><line x1="1500" y1="0" x2="1500" y2="560" stroke="#F3F0EA" stroke-opacity=".023"/><line x1="1600" y1="0" x2="1600" y2="560" stroke="#F3F0EA" stroke-opacity=".023"/><line x1="1700" y1="0" x2="1700" y2="560" stroke="#F3F0EA" stroke-opacity=".023"/><line x1="0" y1="0" x2="1800" y2="0" stroke="#F3F0EA" stroke-opacity=".025"/><line x1="0" y1="80" x2="1800" y2="80" stroke="#F3F0EA" stroke-opacity=".025"/><line x1="0" y1="160" x2="1800" y2="160" stroke="#F3F0EA" stroke-opacity=".025"/><line x1="0" y1="240" x2="1800" y2="240" stroke="#F3F0EA" stroke-opacity=".025"/><line x1="0" y1="320" x2="1800" y2="320" stroke="#F3F0EA" stroke-opacity=".025"/><line x1="0" y1="400" x2="1800" y2="400" stroke="#F3F0EA" stroke-opacity=".025"/><line x1="0" y1="480" x2="1800" y2="480" stroke="#F3F0EA" stroke-opacity=".025"/><line x1="0" y1="560" x2="1800" y2="560" stroke="#F3F0EA" stroke-opacity=".025"/></g>
+  <path d="M70 108H1730 M70 504H1730" stroke="#F3F0EA" stroke-opacity=".2" stroke-width="1"/>
+  <path d="M70 108H225" stroke="#C99577" stroke-width="2"/>
   <g transform="translate(76 42) scale(.44)">
-    <path fill="#D89A72" d="M11 86 C38 84 46 66 62 47 C79 26 91 12 111 9 C83 9 72 21 55 43 C38 67 29 81 11 86Z"/>
-    <path fill="#F6F5F1" d="M10 9 C35 8 45 21 61 43 C80 68 89 82 111 86 C84 89 70 75 52 51 C36 28 26 14 10 9Z"/>
+    <path fill="#C99577" d="M11 86 C38 84 46 66 62 47 C79 26 91 12 111 9 C83 9 72 21 55 43 C38 67 29 81 11 86Z"/>
+    <path fill="#F3F0EA" d="M10 9 C35 8 45 21 61 43 C80 68 89 82 111 86 C84 89 70 75 52 51 C36 28 26 14 10 9Z"/>
   </g>
-  <text x="135" y="76" font-family="Arial,Helvetica,sans-serif" font-size="23" font-weight="600" letter-spacing="4" fill="#F6F5F1">NUROWERX</text>
-  <text x="1730" y="76" text-anchor="end" font-family="monospace" font-size="12" letter-spacing="1.5" fill="#AFAEAB">INDEPENDENT / EST. 2022</text>
+  <text x="135" y="76" font-family="Arial,Helvetica,sans-serif" font-size="23" font-weight="600" letter-spacing="4" fill="#F3F0EA">NUROWERX</text>
+  <text x="1730" y="76" text-anchor="end" font-family="Consolas,'Courier New',monospace" font-size="12" letter-spacing="1.5" fill="#AFAEAB">INDEPENDENT / EST. 2022</text>
 
-  <g fill="#F6F5F1" font-family="'Roboto Condensed','Arial Narrow',Impact,sans-serif" font-weight="900" letter-spacing="-2">
-    <text x="80" y="225" font-size="124" textLength="565" lengthAdjust="spacingAndGlyphs">THE NEXT</text>
-    <text x="111" y="344" font-size="124" textLength="614" lengthAdjust="spacingAndGlyphs">FRONTIER</text>
-    <text x="80" y="464" font-size="124" fill="#D89A72" textLength="615" lengthAdjust="spacingAndGlyphs">IS HUMAN.</text>
+  <!-- Light editorial headline aligned with Resident Model Lab v2 typography -->
+  <g fill="#F3F0EA" font-family="'Helvetica Neue',Arial,Helvetica,sans-serif" font-weight="300" letter-spacing="-2.9">
+    <text x="80" y="229" font-size="100">THE NEXT</text>
+    <text x="80" y="337" font-size="100">FRONTIER</text>
+    <text x="80" y="447" font-size="100" fill="#C99577">IS HUMAN.</text>
   </g>
-  <line x1="80" y1="240" x2="717" y2="240" stroke="#F6F5F1" stroke-opacity=".1"/>
-  <text x="80" y="491" font-family="monospace" font-size="11" letter-spacing="1.2" fill="#D9D6D0">ARTIFICIAL INTELLIGENCE  /  HUMAN SYSTEMS</text>
+  <line x1="80" y1="240" x2="717" y2="240" stroke="#F3F0EA" stroke-opacity=".1"/>
+  <text x="80" y="491" font-family="Consolas,'Courier New',monospace" font-size="11" letter-spacing="1.2" fill="#D9D6D0">ARTIFICIAL INTELLIGENCE  /  HUMAN SYSTEMS</text>
 
   <g>
-    <rect x="836" y="135" width="896" height="344" fill="#16191B" stroke="#F6F5F1" stroke-opacity=".21"/>
-    <path d="M836 168H1732M836 444H1732" stroke="#F6F5F1" stroke-opacity=".18"/>
-    <text x="859" y="156" fill="#F6F5F1" font-family="monospace" font-size="12" letter-spacing=".8">HUMAN SYSTEMS / INFORMATION &amp; INTELLIGENCE</text>
-    <text x="1707" y="156" text-anchor="end" fill="#999895" font-family="monospace" font-size="10">SCHEMATIC / NOT DATA</text>
-    <g fill="none" stroke="#F6F5F1" stroke-opacity=".12">
+    <rect x="836" y="135" width="896" height="344" fill="#16191B" stroke="#F3F0EA" stroke-opacity=".21"/>
+    <path d="M836 168H1732M836 444H1732" stroke="#F3F0EA" stroke-opacity=".18"/>
+    <text x="859" y="156" fill="#F3F0EA" font-family="Consolas,'Courier New',monospace" font-size="12" letter-spacing=".8">HUMAN SYSTEMS / INFORMATION &amp; INTELLIGENCE</text>
+    <text x="1707" y="156" text-anchor="end" fill="#999895" font-family="Consolas,'Courier New',monospace" font-size="10">SCHEMATIC / NOT DATA</text>
+    <g fill="none" stroke="#F3F0EA" stroke-opacity=".12">
       <path d="M890 183v245 M950 183v245 M1010 183v245 M1070 183v245 M1130 183v245 M1190 183v245 M1250 183v245 M1310 183v245 M1370 183v245 M1430 183v245 M1490 183v245 M1550 183v245 M1610 183v245 M1670 183v245"/>
       <path d="M856 222h858 M856 282h858 M856 342h858 M856 402h858"/>
     </g>
-    <text x="910" y="195" fill="#D89A72" font-family="monospace" font-size="11">01 / CONTEXT</text>
-    <text x="1238" y="195" fill="#D89A72" font-family="monospace" font-size="11">02 / INFERENCE</text>
-    <text x="1532" y="195" fill="#D89A72" font-family="monospace" font-size="11">03 / AGENCY</text>
-    <g fill="none" stroke="#F6F5F1" stroke-opacity=".5">
+    <text x="910" y="195" fill="#C99577" font-family="Consolas,'Courier New',monospace" font-size="11">01 / CONTEXT</text>
+    <text x="1238" y="195" fill="#C99577" font-family="Consolas,'Courier New',monospace" font-size="11">02 / INFERENCE</text>
+    <text x="1532" y="195" fill="#C99577" font-family="Consolas,'Courier New',monospace" font-size="11">03 / AGENCY</text>
+    <g fill="none" stroke="#F3F0EA" stroke-opacity=".5">
       <circle cx="1025" cy="309" r="81"/><circle cx="1025" cy="309" r="61" stroke-opacity=".2"/><circle cx="1025" cy="309" r="32"/>
       <circle cx="1334" cy="309" r="84"/><circle cx="1334" cy="309" r="56" stroke-opacity=".2"/><circle cx="1334" cy="309" r="28"/>
       <rect x="1532" y="258" width="132" height="104" rx="0" stroke-opacity=".7"/>
       <path d="M1551 280H1645 M1551 303H1625 M1551 326H1645" stroke-opacity=".45"/>
       <path d="M944 309H1106 M1025 228V390M1250 309H1418M1334 225V393" stroke-opacity=".2"/>
     </g>
-    <path d="M1106 307C1160 283 1201 280 1250 308M1106 310C1161 343 1198 345 1250 310" fill="none" stroke="#D89A72" stroke-width="1.4"/>
-    <path d="M1418 309H1532" fill="none" stroke="#D89A72" stroke-width="1.5"/>
-    <path d="M1520 303l12 6-12 6" fill="none" stroke="#D89A72" stroke-width="1.5"/>
-    <g stroke="#D89A72" stroke-width="1" fill="none">
+    <path d="M1106 307C1160 283 1201 280 1250 308M1106 310C1161 343 1198 345 1250 310" fill="none" stroke="#C99577" stroke-width="1.4"/>
+    <path d="M1418 309H1532" fill="none" stroke="#C99577" stroke-width="1.5"/>
+    <path d="M1520 303l12 6-12 6" fill="none" stroke="#C99577" stroke-width="1.5"/>
+    <g stroke="#C99577" stroke-width="1" fill="none">
       <path d="M980 288l47-24 45 33-26 63-64-19Z"/>
       <path d="M1298 280l32-33 46 27 17 59-45 26-56-21Z"/>
     </g>
-    <g fill="#D89A72">
+    <g fill="#C99577">
       <circle cx="980" cy="288" r="3"/><circle cx="1027" cy="264" r="4"/><circle cx="1072" cy="297" r="3"/><circle cx="1046" cy="360" r="3"/>
       <circle cx="1298" cy="280" r="3"/><circle cx="1330" cy="247" r="3"/><circle cx="1376" cy="274" r="4"/><circle cx="1393" cy="333" r="3"/><circle cx="1348" cy="359" r="3"/>
       <circle cx="1595" cy="308" r="7"/>
     </g>
-    <g stroke="#F6F5F1" stroke-opacity=".35" fill="none">
+    <g stroke="#F3F0EA" stroke-opacity=".35" fill="none">
       <path d="M980 288L1046 360L1072 297L1027 264L980 288M1027 264L1046 360"/>
       <path d="M1298 280L1393 333L1330 247L1348 359L1376 274L1298 280"/>
     </g>
-    <text x="860" y="463" font-family="monospace" fill="#D9D6D0" font-size="11" letter-spacing="1">PERCEPTION</text>
-    <text x="1232" y="463" font-family="monospace" fill="#D9D6D0" font-size="11" letter-spacing="1">INTERPRETATION</text>
-    <text x="1711" y="463" text-anchor="end" font-family="monospace" fill="#D89A72" font-size="11" letter-spacing="1">HUMAN AGENCY</text>
+    <text x="860" y="463" font-family="Consolas,'Courier New',monospace" fill="#D9D6D0" font-size="11" letter-spacing="1">PERCEPTION</text>
+    <text x="1232" y="463" font-family="Consolas,'Courier New',monospace" fill="#D9D6D0" font-size="11" letter-spacing="1">INTERPRETATION</text>
+    <text x="1711" y="463" text-anchor="end" font-family="Consolas,'Courier New',monospace" fill="#C99577" font-size="11" letter-spacing="1">HUMAN AGENCY</text>
   </g>
-  <text x="80" y="538" fill="#AFAEAB" font-family="monospace" font-size="11" letter-spacing="1">NUROWERX / COLORADO, USA</text>
-  <text x="1730" y="538" text-anchor="end" fill="#AFAEAB" font-family="monospace" font-size="11" letter-spacing="1">PERCEPTION  →  INTERPRETATION  →  ACTION</text>
+  <text x="80" y="538" fill="#AFAEAB" font-family="Consolas,'Courier New',monospace" font-size="11" letter-spacing="1">NUROWERX / COLORADO, USA</text>
+  <text x="1730" y="538" text-anchor="end" fill="#AFAEAB" font-family="Consolas,'Courier New',monospace" font-size="11" letter-spacing="1">PERCEPTION  →  INTERPRETATION  →  ACTION</text>
 </svg>
