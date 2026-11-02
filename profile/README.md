@@ -8,7 +8,7 @@
 
 ---
 
-Nurowerx is an independent research and technology corporation exploring the relationship between people, information, and intelligent systems. Our work connects human–computer interaction, explainable AI, intelligent infrastructure, and adaptive computation with a human-centered perspective.
+Nurowerx is an independent research and technology company exploring the relationship between people, information, and intelligent systems. Our work connects human–computer interaction, explainable AI, intelligent infrastructure, and adaptive computation with a human-centered perspective.
 
 ### Areas of inquiry
 
