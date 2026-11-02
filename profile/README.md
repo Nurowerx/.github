@@ -28,13 +28,13 @@ Investigating how information is represented, interpreted, communicated, and act
 
 ### Research infrastructure: TRACE · LOOP · LENS · FRAME
 
-**[Nurowerx Research Stack — technical overview](./research/RESEARCH-STACK.md)** is a locally implemented, modular research-software environment connecting datasets and evidence to evaluation, visualization, and reviewed corrections.
+**[Nurowerx Research Stack](https://github.com/Nurowerx/research-stack)** is public research software connecting evidence provenance, deterministic evaluation, scientific visualization and reviewed corrections through **TRACE · LOOP · LENS · FRAME**.
 
-**TRACE** records structured provenance and relationships · **LOOP** runs evaluations and documents corrections · **LENS** visualizes results and evidence · **FRAME** provides the integrated workspace.
+**[v0.1.0 — Initial Public Research Release](https://github.com/Nurowerx/research-stack/releases/tag/v0.1.0)** includes complete source, NRS-Bench, versioned synthetic datasets, three technical reports and reproduction instructions. **54 automated tests passed** (35 backend, 12 visualization, 7 browser); clean reproduction passed on Windows, Linux and macOS. The historical 31-test development baseline is preserved separately.
 
-**Reported result:** Dataset → evaluation → reviewed correction → rerun → report workflow completed; **31 tests passed** (browser, accessibility, and mobile coverage), with clean-install and report reproduction verified in the local development report. A **read-only Epistemic Trust Lab import** was reported verified without modifying the existing project.
+**Research scope:** Three seeds and 18 controlled synthetic executions; no real-model or human-user study, peer review or independent-party replication is claimed. Software is MIT; original datasets and papers are CC BY 4.0. Archival metadata is prepared; no DOI has been issued.
 
-**Scope:** Developer-reported local implementation; the full source ZIP and engineering report are not public or independently audited here. Resident Model Lab and VEYDRIS remain separate projects, with no integration claim. [Research Stack website overview](https://nurowerx.com/technical-work#research-stack).
+[Installation](https://github.com/Nurowerx/research-stack/blob/v0.1.0/docs/installation/README.md) · [Methods and raw evidence](https://github.com/Nurowerx/research-stack/blob/v0.1.0/docs/validation/README.md) · [Technical papers](https://github.com/Nurowerx/research-stack/tree/v0.1.0/research/papers) · [Static results demo](https://nurowerx.github.io/research-stack/) · [Citation](https://github.com/Nurowerx/research-stack/blob/v0.1.0/CITATION.cff)
 
 ### Featured research: Resident Model Lab
 
