@@ -23,6 +23,10 @@ These are **developer-reported build capabilities**, not results independently a
 
 Video analysis on uploaded material should not be represented as live airborne sensing, validated autonomous detection, geolocation, or operational deployment.
 
+### Relationship to the Nurowerx Research Stack
+
+The [Nurowerx Research Stack](./RESEARCH-STACK.md) could eventually support VEYDRIS provenance, evaluation, and inspection workflows, but **no VEYDRIS integration has been verified**. This prototype remains distinct from that research platform, and its synthetic map is not verified geolocation.
+
 ### Publication and access
 
 The application runs on the developer's computer; it is **not an accessible public website**. The full code, model and sample archive have **not yet been uploaded to this GitHub organization**. Local authentication details are intentionally excluded from public documentation. The project is not offered here as a verified security or surveillance product.
