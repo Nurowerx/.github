@@ -45,6 +45,10 @@ The new study used 16 engineering tasks, only eight of them new and independent.
 
 Next steps include larger independent benchmark suites, longer contexts, multiple randomized repetitions, isolated mechanism studies, host-memory constraints, and comparing synchronous exact loading with safe opportunities for overlapped transfers.
 
+### Relationship to the Nurowerx Research Stack
+
+The [Nurowerx Research Stack](./RESEARCH-STACK.md) is a separate local research software platform for provenance (TRACE), evaluation (LOOP), visualization (LENS), and review workspaces (FRAME). It could support future RML experiment-adapter workflows, **but no RML-to-Research-Stack integration is currently verified**. RML's original measurements and limitations remain as documented here.
+
 ### Project links and source availability
 
 - **[RML technical repository](https://github.com/Nurowerx/resident-model-lab)** — canonical project source location; **private**, access restricted.
