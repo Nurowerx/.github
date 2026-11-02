@@ -26,13 +26,13 @@ Investigating how information is represented, interpreted, communicated, and act
 
 ### Featured research: Resident Model Lab
 
-**[Resident Model Lab](./research/RESIDENT-MODEL-LAB.md)** is a working local software research system investigating memory-bounded inference in an existing OLMoE mixture-of-experts model. It manages expert loading and GPU residency, with exact and adaptive execution modes and instrumentation for memory, transfers, latency, and answer correctness.
+**[Resident Model Lab (RML)](https://github.com/Nurowerx/resident-model-lab)** is Nurowerx's experimental research program for **memory-bounded local inference** with existing mixture-of-experts models. Its latest **selection v2** cache keeps the original model router's expert choices intact while improving which weights reside in GPU memory.
 
-**What works:** In exact mode, generated tokens matched the reference implementation on tested requests. In an initial eight-task evaluation, exact execution and an ordinary quantization baseline each passed **5/8** tasks; tested 16-expert adaptive configurations passed **2/8**.
+**Latest tested result:** Compared with the previous 256-slot default, the new 128-slot configuration used **38.3% less peak GPU tensor memory** (2.42 vs. 3.92 GiB) at **11.4% higher mean response latency** (16.19 vs. 14.53 seconds). At a matched 128-slot capacity, the new cache policy was **6.3% faster** than the previous cache. An audit matched generated tokens across **128 requests**, full next-token logits were bitwise equal on three selected prompts, and **24 tests passed**.
 
-**What remains unresolved:** Reliable expert selection that preserves answer quality. These early results do not establish broad capability parity, speedups, measured hardware cost savings, or production readiness.
+**Scope:** This is a small, controlled OLMoE engineering study, **not** a claim of universal model compression, broad capability equivalence, or lower total system cost. The full expert store remains local, and raw results have not been independently audited here. Earlier approximate expert substitution degraded some answers; selection v2 instead preserves native routing.
 
-[Read the preliminary technical research note](./research/RESIDENT-MODEL-LAB.md) for methods, limitations and next experiments.
+**Explore:** [RML canonical project repository](https://github.com/Nurowerx/resident-model-lab) (**private; collaborators only**) · [Public RML research note, v0.2](./research/RESIDENT-MODEL-LAB.md) (**accessible without repository access**).
 
 ### Public technical work
 
