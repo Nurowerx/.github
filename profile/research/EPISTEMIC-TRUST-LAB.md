@@ -19,4 +19,8 @@ The outcomes apply to **deterministic policies on synthetic fixtures**. They do 
 
 The research aligns intellectually with Nurowerx's interest in explainable AI, memory provenance, information integrity, human agency, and the visibility of uncertainty, but should be attributed to the independent researcher unless formal institutional ownership or sponsorship is later documented.
 
+### Read-only integration with Nurowerx Research Systems
+
+The November 2, 2026 local-build report for the [Nurowerx Research Stack](./RESEARCH-STACK.md) states that an **Epistemic Trust Lab read-only import was verified** and the existing ETL project remained unchanged. This is a data-import/integration claim only: it does **not** change the scope of ETL's synthetic-policy results, constitute a live-model test, or establish any human-participant findings. The full integration implementation was not independently audited here.
+
 **Status:** Locally implemented; public source release and any online demo pending archive review and deployment.
