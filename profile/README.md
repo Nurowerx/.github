@@ -36,6 +36,12 @@ Investigating how information is represented, interpreted, communicated, and act
 
 **Explore:** [RML canonical project repository](https://github.com/Nurowerx/resident-model-lab) (**private; collaborators only**) · [Public RML research note, v0.2](./research/RESIDENT-MODEL-LAB.md) (**accessible without repository access**).
 
+### Founder research: Epistemic Trust Lab
+
+**[Epistemic Trust Lab](./research/EPISTEMIC-TRUST-LAB.md)** is an independent research instrument created by Nurowerx founder Spencer H. Walker to investigate evidential support, conversational context, and AI reliability. The reported local implementation includes **240 synthetic scenarios, 5,760 deterministic policy evaluations,** interactive memory/evidence inspection, and **34 passing automated tests**.
+
+**Scope:** Synthetic deterministic evaluations only. Real-model benchmarking and authorized human-participant research have not been completed, and the source archive is not yet publicly released. This founder-led project is not represented as company-sponsored or university-sponsored research.
+
 ### Public technical work
 
 This organization provides a deliberately limited public view of Nurowerx's research and engineering directions. Public repositories will be selected for clarity, reproducibility, and suitability for release.
