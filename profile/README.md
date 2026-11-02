@@ -26,6 +26,16 @@ Research directions in environmental interpretation, sensing, machine-assisted d
 **Information Science & Human Systems**  
 Investigating how information is represented, interpreted, communicated, and acted upon across human and artificial systems.
 
+### Research infrastructure: TRACE · LOOP · LENS · FRAME
+
+**[Nurowerx Research Stack — technical overview](./research/RESEARCH-STACK.md)** is a locally implemented, modular research-software environment connecting datasets and evidence to evaluation, visualization, and reviewed corrections.
+
+**TRACE** records structured provenance and relationships · **LOOP** runs evaluations and documents corrections · **LENS** visualizes results and evidence · **FRAME** provides the integrated workspace.
+
+**Reported result:** Dataset → evaluation → reviewed correction → rerun → report workflow completed; **31 tests passed** (browser, accessibility, and mobile coverage), with clean-install and report reproduction verified in the local development report. A **read-only Epistemic Trust Lab import** was reported verified without modifying the existing project.
+
+**Scope:** Developer-reported local implementation; the full source ZIP and engineering report are not public or independently audited here. Resident Model Lab and VEYDRIS remain separate projects, with no integration claim. [Research Stack website overview](https://nurowerx.com/technical-work#research-stack).
+
 ### Featured research: Resident Model Lab
 
 **[Resident Model Lab (RML)](https://github.com/Nurowerx/resident-model-lab)** is Nurowerx's experimental research program for **memory-bounded local inference** with existing mixture-of-experts models. Its latest **selection v2** cache keeps the original model router's expert choices intact while improving which weights reside in GPU memory.
