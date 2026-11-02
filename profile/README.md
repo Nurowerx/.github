@@ -1,10 +1,6 @@
 <div align="center">
 
-<img src="./assets/nurowerx-mark.svg" width="105" alt="Nurowerx orange and white crossed-ribbon X" />
-
-# NUROWERX
-
-### THE NEXT FRONTIER IS HUMAN.
+<img src="./assets/nurowerx-github-banner.svg" width="100%" alt="NUROWERX — THE NEXT FRONTIER IS HUMAN. Charcoal and warm-orange editorial banner with a schematic of context, inference, and human agency." />
 
 **ARTIFICIAL INTELLIGENCE · HUMAN SYSTEMS · INFORMATION SCIENCE · ADAPTIVE COMPUTING**
 
