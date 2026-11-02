@@ -36,6 +36,12 @@ Investigating how information is represented, interpreted, communicated, and act
 
 **Explore:** [RML canonical project repository](https://github.com/Nurowerx/resident-model-lab) (**private; collaborators only**) · [Public RML research note, v0.2](./research/RESIDENT-MODEL-LAB.md) (**accessible without repository access**).
 
+### Applied computer vision: VEYDRIS
+
+**[VEYDRIS — technical overview](./research/VEYDRIS.md)** is a locally implemented video-analysis prototype featuring object detection and tracking in uploaded recordings, replay, annotations, exports, and authentication, plus a separately labeled **synthetic map demo**. The initial developer-reported build passed **36 automated tests**.
+
+**Scope:** The software has not been independently audited from its complete source archive. Live drone connections and real geolocation are future phases; included Docker/PostGIS configuration remains runtime-untested. The local application, model, and sample archive are **not yet publicly released**. No live operational sensing or measured field accuracy is claimed.
+
 ### Founder research: Epistemic Trust Lab
 
 **[Epistemic Trust Lab](./research/EPISTEMIC-TRUST-LAB.md)** is an independent research instrument created by Nurowerx founder Spencer H. Walker to investigate evidential support, conversational context, and AI reliability. The reported local implementation includes **240 synthetic scenarios, 5,760 deterministic policy evaluations,** interactive memory/evidence inspection, and **34 passing automated tests**.
