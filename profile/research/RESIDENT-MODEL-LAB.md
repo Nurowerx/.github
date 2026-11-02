@@ -1,80 +1,53 @@
 # Resident Model Lab
+
 ## Preliminary technical research note
-**Nurowerx | Active research | Version 0.1 | November 2026**
 
-> **Disclosure:** This note describes a working experimental software tool and an initial, very small evaluation, based on the project's reported development summary. It is not a peer-reviewed paper, independent replication, released implementation, or a claim of proven improvements to model capability, speed, or hardware cost.
+**Nurowerx | Active research | Version 0.2 (selection v2) | November 2026**
 
-### Summary
+> **Disclosure:** This is an engineering research summary based on team-supplied measurements and audits. It is not peer-reviewed, independently replicated, or a public release of the implementation, model weights or full benchmark artifacts. The [RML source repository](https://github.com/Nurowerx/resident-model-lab) is **private**, so only authorized collaborators can open it.
 
-Resident Model Lab studies the tradeoff between **fast GPU-resident model components** and slower component retrieval in local language-model inference. The current implementation operates on an existing **OLMoE** mixture-of-experts model; Nurowerx has developed the software controlling and evaluating expert residency, **not the underlying foundation model**.
+### Overview
 
-The program is a local command-line research system. It is not yet a consumer assistant, general-purpose deployment, downloadable application, or validated demonstration that a powerful model can retain its full capability on significantly cheaper hardware.
+**Resident Model Lab (RML)** investigates memory-bounded local inference with an **existing OLMoE mixture-of-experts language model**. Its focus is the systems problem of which expert weights should be resident in fast GPU memory and when missing experts should load from local storage. Nurowerx develops the surrounding runtime and experimental software, **not the underlying foundation model**.
 
-### Research question
+An MoE *expert* is a mathematical model component, not necessarily a domain specialist.
 
-Can selective expert residency and task-stage selection reduce the amount of model state held in fast accelerator memory, while keeping the quality and latency of local inference within useful bounds?
+### Key finding: router-faithful residency (selection v2)
 
-An *expert* is a mathematical component in a mixture-of-experts (MoE) architecture. Expert IDs are not necessarily interpretable skills such as "mathematics" or "programming".
+The earlier restricted adaptive selector could substitute different experts for those requested by the native model router and degraded some answers. **Selection v2 does not substitute experts.** It uses layer-partitioned caches with request protection to decide which weights **stay in GPU memory**, while always executing the router's original expert choices.
 
-### Implemented execution modes
+The team reported these results on one OLMoE/RTX 5070 configuration:
 
-| Mode | Mechanism | Expected tradeoff |
-| --- | --- | --- |
-| **Exact execution** | Fetches the experts requested by the original model, limiting the number kept resident in fast GPU memory. | Preserves the model's original expert-selection computation, but transfers and loading can increase latency. |
-| **Adaptive execution** | Restricts active computation to a selected set of 16 experts across a generated span, reconsidering selection every eight generated tokens. | May reduce component movement, but changed expert choices can cause answer-quality degradation. |
-
-In adaptive mode, the runtime can either **recompute the conversation context using the newly selected experts** or **continue with the existing internal history**. These alternatives are part of the research design, not demonstrated equivalences.
-
-### Working implementation and observables
-
-The software includes mechanisms to control which experts are loaded and resident, plus instrumentation intended to evaluate GPU/host memory behavior, component loading and transfers, response latency, and task correctness.
-
-**Exact execution matched the reference implementation's generated tokens on the tested requests.** This is a bounded functional check, not proof of equality over all prompts, decoding configurations, or model workloads.
-
-### Preliminary task-evaluation results
-
-Reported outcomes from an initial set of **eight tasks**:
-
-| Method | Tasks passed | Tasks not passed |
+| Cache strategy | Peak GPU tensors | Mean request time (empty application cache) |
 | --- | ---: | ---: |
-| Exact execution | 5 | 3 |
-| Ordinary quantization baseline | 5 | 3 |
-| Adaptive execution, tested 16-expert configurations | 2 | 6 |
+| Prior global LRU, 256 slots | 3.92 GiB | 14.53 s |
+| New layer-partitioned cache, 256 slots | 3.92 GiB | **13.10 s** |
+| Prior global LRU, 128 slots | 2.42 GiB | 17.28 s |
+| New layer-partitioned cache, 128 slots | **2.42 GiB** | **16.19 s** |
 
-The adaptive configurations performed worse on this small task set. The reported result is meaningful as a **failure signal for the current approach**, but the sample is too small to establish comparative effectiveness or generalize to other tasks.
+**Memory-versus-speed:** The new 128-slot setting used **38.3% less peak GPU tensor memory** than the prior 256-slot default at **11.4% more request latency**. The smaller capacity itself accounts for the memory reduction. At the **same** 128-slot capacity, the new policy was **6.3% faster** and incurred **13.6% fewer logical expert reads**; at the same 256-slot capacity, it was **9.9% faster** with **4.8% fewer reads**.
 
-These counts measure task passes, **not** measured peak VRAM savings, total host memory, model loading volume, energy use, tokens per second, or dollar cost. No numerical performance claims for those other quantities are made here.
+**Correctness evidence:** An audit found identical generated tokens for **128 requests** comprising 16 tasks, two cache conditions and four configurations. Full next-token logits were **bitwise equal** on three selected prompts in empty and warm conditions; **24 tests passed**. All configurations solved **10/16** engineering tasks correctly, preserving baseline errors alongside baseline successes.
 
-### What is established vs. unresolved
+The experiment is small, and these findings **do not establish universal speedups, general capability preservation, lower total machine memory, or hardware-cost savings**. The complete approximate **12 GiB expert store still remains on local storage**.
 
-**Implemented / reported observations**
-- A functional local research runtime and CLI exist.
-- Exact and restricted adaptive execution modes have been implemented.
-- Exact-mode output matched reference tokens on tested requests.
-- Preliminary 8-task testing exposed quality degradation with the tested adaptive mode.
+### Earlier v0.1 negative result
 
-**Not established**
-- Reliable adaptive expert choice that preserves general task quality.
-- A demonstrated speed improvement after accounting for expert transfers and context recomputation.
-- A specific reduction in peak GPU memory with acceptable quality and latency at comparable settings.
-- Generalization to diverse tasks, larger models, devices, or deployment environments.
-- A commercial product or production-grade personal assistant.
+An initial eight-task evaluation compared exact execution, ordinary quantization and restricted adaptive expert substitution. Exact and quantized baselines each passed **5/8** tasks; the restricted adaptive 16-expert methods passed **2/8**. These results motivated the switch toward router-faithful residency. They are historical and should **not** be confused with the current exact-residency cache.
 
-### Next experiments
+### Limits and next experiments
 
-1. Preserve the exact path as a reproducible correctness reference.
-2. Freeze and document hardware, software versions, model checkpoint, quantization, generation settings, seeds, task prompts, scoring and run logs.
-3. Expand quality evaluation beyond eight tasks; include repeated runs, broader task types and robust failure analysis.
-4. Compare distinct adaptive-selection policies and selection intervals, including whether full context recomputation helps.
-5. Measure GPU/host residency, transferred bytes, expert-load time, end-to-end latency, and throughput *alongside* quality.
-6. Compare against realistic alternatives, including ordinary quantization, conventional offloading, and smaller models under comparable hardware and task conditions.
-7. Explore trained or learned selection policies only after establishing reliable evaluation baselines.
+The new study used 16 engineering tasks, only eight of them new and independent. The four configurations each received one serial, non-randomized pass. Timing can be influenced by OS caching, thermals and unrelated CPU work. "Logical reads" are not direct physical SSD read measurements. The study combined layer partitioning with request protection rather than testing them individually. A small audit does not prove exact results on all inputs or longer contexts.
 
-### Public release and evidence policy
+Next steps include larger independent benchmark suites, longer contexts, multiple randomized repetitions, isolated mechanism studies, host-memory constraints, and comparing synchronous exact loading with safe opportunities for overlapped transfers.
 
-This note intentionally contains no unpublished source code, private experimental fixtures, confidential model artifacts, credentials or implementation details beyond the disclosed research summary. A dedicated project repository may be established privately while provenance, licenses, reproducibility materials, and release readiness are reviewed.
+### Project links and source availability
 
-**Source of current status:** project team's supplied implementation and evaluation summary. Independent inspection of execution logs, hardware measurements, code and benchmark fixtures has not yet been performed for this note.
+- **[RML technical repository](https://github.com/Nurowerx/resident-model-lab)** — canonical project source location; **private**, access restricted.
+- **[Selection v2 technical summary](https://github.com/Nurowerx/resident-model-lab/blob/main/docs/selection-v2-results.md)** — available to authorized repository collaborators.
+- This document is the **public research note** for readers without repository access.
+
+No source code, checkpoints, raw private experimental fixtures or credentials are published through this note. Related research exists, including MoE-Infinity and MoE-CORE; this small experiment should not be described as a universal compression approach or entirely new MoE architecture.
 
 ---
 
